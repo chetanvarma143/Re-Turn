@@ -407,7 +407,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4945907176763926420}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d7f4f10b5f79db4186335232963afdf, type: 3}
   m_Name: 
@@ -457,6 +457,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 452ec59300f4bd34f8c44e445dec519b, type: 3}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 452ec59300f4bd34f8c44e445dec519b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.309
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 452ec59300f4bd34f8c44e445dec519b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

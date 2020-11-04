@@ -98,7 +98,7 @@ public class EnemeyMovement : MonoBehaviour
         //}
         if (current_Attack_Time > default_Attack_Time)
         {
-            enemeyAnim.EnemyAttack(Random.Range(0, 3));
+            enemeyAnim.EnemyAttack(Random.Range(0, 5));
             current_Attack_Time = 0f; 
         }
 

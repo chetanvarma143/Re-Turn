@@ -898,8 +898,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_Game
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1195737983, guid: f59f698ccdb67bb4f8d50e94e23bbeeb, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f59f698ccdb67bb4f8d50e94e23bbeeb, type: 3}
 --- !u!4 &452856833 stripped
 Transform:
@@ -1725,50 +1724,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257948163}
   m_CullTransparentMesh: 0
---- !u!1 &1331256066 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 328237765663826985, guid: f59f698ccdb67bb4f8d50e94e23bbeeb,
-    type: 3}
-  m_PrefabInstance: {fileID: 452856827}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1331256067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331256066}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34f53a8d847b29544bbb4f1b11c01448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1331256070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331256066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7944834f1a6d14b92758f4c1bdc917, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1331256071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331256066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 658b3b1754bd7ee46989503f1c0af566, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  is_Player: 1
 --- !u!1 &1362043517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2310,15 +2265,6 @@ PrefabInstance:
       propertyPath: playerTarget
       value: 
       objectReference: {fileID: 452856833}
-    - target: {fileID: 1084741365, guid: b216b8b3fdbb01f4cb589f4aa7b17bef, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4945907175673245083, guid: b216b8b3fdbb01f4cb589f4aa7b17bef,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.309
-      objectReference: {fileID: 0}
     - target: {fileID: 4945907176763926420, guid: b216b8b3fdbb01f4cb589f4aa7b17bef,
         type: 3}
       propertyPath: m_Name
